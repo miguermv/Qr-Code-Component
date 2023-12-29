@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  max-width: 320px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+p,
+h1 {
+  text-align: center;
+  text-wrap: pretty;
+  margin: 1rem;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 1rem;
+}
